@@ -1,0 +1,17 @@
+network:
+ version: 2
+ renderer: NetworkManager
+ ethernets:
+     enp6s0:
+        dhcp4: true
+        dhcp6: true
+network:
+    version: 2
+    wifis:
+        wlan0:
+             renderer: NetworkManager
+             dhcp4: true
+             dhcp6: true
+             access-points:
+                 tetra2:
+                     password: rjb340tabb
